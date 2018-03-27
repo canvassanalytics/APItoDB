@@ -1,0 +1,15 @@
+api_endpoint: <https://api.hostname.com/full/uri>
+api_token: <API Access Token>
+response_to_field:
+  - json_response_field_1: Database_Field_1
+  - json_response_field_2: Database_Field_2
+  - json_response_timestamp: Database_Timestamp
+database_timestamp_field: Database_Timestamp
+adjust_UTC_to_Local_time: True
+sql:
+  server: localhost
+  database: master
+  username: sa
+  password: password
+  table: TableName
+log_level: DEBUG
