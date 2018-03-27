@@ -2,15 +2,22 @@
 This project is designed to be run on a schedule, whenever it runs it will call an API, translate the response based on configuration and write the response to a MS SQL Database.
 
 ## Installing
-To Install this project pull from this repo with
-```
-wget https://github.com/canvassanlytics/APItoDB.git
-```
-Or you can just click the `Download` button above
+1. To Install this project pull from this repo with
+    ```
+    wget https://github.com/canvassanlytics/APItoDB.git
+    ```
+    Or you can just click the `Download` button above
 
-Once downloaded use a scheduling tool to run the prediction.py
-* Windows: Use Task Manager
-* Linux: Use Cron
+2. Run the following command to install dependencies
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Configure the `config.yaml` file (See Configuration section below)
+
+4. Use your OS's scheduling tool to run the prediction.py
+    * Windows: Use Task Manager
+    * Linux: Use Cron
 
 ## Configuration
 You will need to update the config.yaml file with your setting for the API and Database
