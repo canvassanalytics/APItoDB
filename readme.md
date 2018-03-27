@@ -4,8 +4,10 @@ This project is designed to be run on a schedule, whenever it runs it will call 
 ## Installing
 To Install this project pull from this repo with
 ```
-wget https://github.com/canvassanlytics/pullpredictions.git
+wget https://github.com/canvassanlytics/APItoDB.git
 ```
+Or you can just click the `Download` button above
+
 Once downloaded use a scheduling tool to run the prediction.py
 * Windows: Use Task Manager
 * Linux: Use Cron
