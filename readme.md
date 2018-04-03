@@ -1,10 +1,19 @@
 # Canvass Analytics Pull Predictions
 This project is designed to be run on a schedule, whenever it runs it will call an API, translate the response based on configuration and write the response to a MS SQL Database.
 
+## Prerequisites
+You need to have `Python3` installed.  Installing python should also install `pip`, Python Package management tool.
+* This application is compatible with Python 3.4.x+, but it is recommended to install the latest version. [Download Python Here](https://www.python.org/downloads/)
+
 ## Installing
 1. To Install this project pull from this repo with
+    On Linux based systems
     ```
-    wget https://github.com/canvassanlytics/APItoDB.git
+    wget --no-check-certificate --content-disposition https://github.com/canvassanlytics/node/tarball/v1.0.0
+    ```
+    On Windows based system (from PowerShell)
+    ```
+    Invoke-WebRequest -Uri https://github.com/canvassanlytics/node/tarball/v1.0.0 -OutFile C:\Downloads\APItoDB
     ```
     Or you can just click the `Download` button above
 
