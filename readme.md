@@ -9,11 +9,11 @@ You need to have `Python3` installed.  Installing python should also install `pi
 1. To Install this project pull from this repo with
     On Linux based systems
     ```
-    wget --no-check-certificate --content-disposition https://github.com/canvassanlytics/node/tarball/v1.0.0
+    wget --no-check-certificate --content-disposition https://github.com/canvassanalytics/APItoDB/archive/v1.0.0.tar.gz
     ```
     On Windows based system (from PowerShell)
     ```
-    Invoke-WebRequest -Uri https://github.com/canvassanlytics/node/tarball/v1.0.0 -OutFile C:\Downloads\APItoDB
+    Invoke-WebRequest -Uri httpshttps://github.com/canvassanalytics/APItoDB/archive/v1.0.0.zip -OutFile C:\Downloads\APItoDB\v1.0.0.zip
     ```
     Or you can just click the `Download` button above
 
